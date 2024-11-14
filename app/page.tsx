@@ -12,8 +12,8 @@ export default function Home() {
             <Image className="aspect-auto" src="/cat.png" width={2000} height={2000} alt="aipnut"/>
           </div>
           <div className="flex flex-col items-center justify-center">
-          <h2 className="text-4xl mb-10">About $AiPnut </h2>
-          <p className="text-lg">
+          <h2 className="text-4xl md:text-6xl md:text-left mb-10 w-full">About $AiPnut </h2>
+          <p className="text-lg text-center md:text-left">
           AiPnut is a heartfelt tribute to Peanut the Squirrel, who was taken
           from his home but whose legacy will never be forgotten. P’Nut’s Family
           Freedom Farm Animal Sanctuary embodied love, rescuing and caring for
