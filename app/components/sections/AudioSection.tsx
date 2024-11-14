@@ -59,7 +59,7 @@ const AudioSection = () => {
   return (
     <section className="min-h-screen py-20 bg-[#141414] flex flex-col justify-center items-center border-t-[1px] border-gray-700">
       <h2 className="text-center text-white font-bold text-5xl mt-12">Click to play Audio</h2>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-2 md:grid-cols-3">
         {items.map((item, index) => (
           <div key={index} onClick={() => handlePlayAudio(item.audioSrc)}>
             <Image
