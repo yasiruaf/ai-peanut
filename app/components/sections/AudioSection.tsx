@@ -62,7 +62,7 @@ const AudioSection = () => {
 
   return (
     <section className="min-h-screen bg-[#141414] flex flex-col justify-center items-center border-t-[1px] border-gray-700">
-      <h2 className="text-center text-white font-bold text-5xl mt-3">Play Audio</h2>
+      <h2 className="text-center text-white font-bold text-5xl mt-12">Play Audio</h2>
       <div className="flex flex-wrap items-center ml-10">
         {items.map((item, index) => (
           <div key={index} onClick={() => handlePlayAudio(item.audioSrc)}>

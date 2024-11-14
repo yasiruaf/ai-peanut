@@ -30,7 +30,7 @@ export function HomeHeroSection() {
             Contract Address:
           </p>
           <p className="text-white mt-2">
-            HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           </p>
         </div>
         <div className="flex gap-x-5 mt-5">
