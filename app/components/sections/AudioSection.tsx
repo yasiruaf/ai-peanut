@@ -70,7 +70,7 @@ const AudioSection = () => {
   };
 
   return (
-    <section className="min-h-screen py-20 bg-[#141414] flex flex-col justify-center items-center border-t-[1px] border-gray-700">
+    <section className="min-h-screen py-20  flex flex-col justify-center items-center border-t-[1px] border-gray-700">
       <h2 className="text-center px-4 text-white font-bold text-4xl md:text-5xl mt-12">
       Click to hear from $AiPnut
       </h2>

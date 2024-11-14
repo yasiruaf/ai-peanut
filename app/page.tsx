@@ -9,7 +9,7 @@ export default function Home() {
       <div className="border-t py-10 flex items-center justify-center border-gray-700 w-full">
         <div className=" p-8  rounded-lg w-full grid md:grid-cols-2 gap-10 container">
           <div>
-            <Image className="aspect-auto" src="/cat.png" width={2000} height={2000} alt="aipnut"/>
+            <Image className="aspect-auto rounded-lg shadow-lg" src="/pic_1.png" width={2000} height={2000} alt="aipnut"/>
           </div>
           <div className="flex flex-col items-center justify-center">
           <h2 className="text-4xl md:text-6xl md:text-left mb-10 w-full">About $AiPnut </h2>
@@ -36,9 +36,15 @@ export default function Home() {
         </div>
       </div>
       <AudioSection />
+      {/* <div className="border-t min-h-screen relative flex items-center justify-center border-gray-700 w-full">
+       <Image src={"/pic_2.jpeg"} height={2000} width={2000} alt="" className="absolute"/>
+       <div className="">
+
+       </div>
+      </div> */}
     
       <div className="border-t py-10 flex items-center justify-center border-gray-700 w-full">
-        <div className="text-sm p-4 bg-black rounded-lg">
+        <div className="md:text-2xl text-[10px] p-4 bg-black rounded-lg">
           CA: 6Y6C4Xx7NF2xY5eTaur1ioCmHsAmHDffskJbic2opump
         </div>
       </div>
