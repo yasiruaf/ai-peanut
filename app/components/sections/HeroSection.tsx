@@ -33,7 +33,7 @@ export function HomeHeroSection() {
             Contract Address:
           </p>
           <p className="text-white mt-2 text-sm">
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          6Y6C4Xx7NF2xY5eTaur1ioCmHsAmHDffskJbic2opump
           </p>
         </div>
         <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-2 mt-5">

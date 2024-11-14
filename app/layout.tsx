@@ -16,7 +16,7 @@ const font = Audiowide({
 })
 
 export default function RootLayout({
-  
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -25,8 +25,7 @@ export default function RootLayout({
       <body
         className={`${font.className}`}
       >
-        <>--</>
-        {/* {children} */}
+        {children}
       </body>
     </html>
   );

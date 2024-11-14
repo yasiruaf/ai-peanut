@@ -39,7 +39,7 @@ export default function Home() {
     
       <div className="border-t py-10 flex items-center justify-center border-gray-700 w-full">
         <div className="text-sm p-4 bg-black rounded-lg">
-          CA: xxxxxxxxxxxxxxxxxxxx
+          CA: 6Y6C4Xx7NF2xY5eTaur1ioCmHsAmHDffskJbic2opump
         </div>
       </div>
     </div>
