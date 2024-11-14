@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AudioSection from "./components/sections/AudioSection";
 import { HomeHeroSection } from "./components/sections/HeroSection";
 
@@ -6,8 +7,12 @@ export default function Home() {
     <div>
       <HomeHeroSection />
       <div className="border-t py-10 flex items-center justify-center border-gray-700 w-full">
-        <div className=" p-8  rounded-lg w-full gap-10 container">
-          <h2 className="text-2xl mb-10">About $AiPnut </h2>
+        <div className=" p-8  rounded-lg w-full grid md:grid-cols-2 gap-10 container">
+          <div>
+            <Image className="aspect-auto" src="/cat.png" width={2000} height={2000} alt="aipnut"/>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+          <h2 className="text-4xl mb-10">About $AiPnut </h2>
           <p className="text-lg">
           AiPnut is a heartfelt tribute to Peanut the Squirrel, who was taken
           from his home but whose legacy will never be forgotten. P’Nut’s Family
@@ -26,6 +31,8 @@ export default function Home() {
           <br />
           Peanut forever. AiPnut, eternally.
           </p>
+          </div>
+         
         </div>
       </div>
       <AudioSection />
