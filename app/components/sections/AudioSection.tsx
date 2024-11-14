@@ -41,10 +41,6 @@ const AudioSection = () => {
       imgSrc: "/Images/cat.png",
       audioSrc: "/Alvin_Voice/9_Suck_on_these_nutsss_837.mp3",
     },
-    {
-      imgSrc: "/Images/cat.png",
-      audioSrc: "/Alvin_Voice/10_You_missed_peanut_d_113.mp3",
-    },
   ];
 
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null);
@@ -61,9 +57,9 @@ const AudioSection = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#141414] flex flex-col justify-center items-center border-t-[1px] border-gray-700">
-      <h2 className="text-center text-white font-bold text-5xl mt-12">Play Audio</h2>
-      <div className="flex flex-wrap items-center ml-10">
+    <section className="min-h-screen py-20 bg-[#141414] flex flex-col justify-center items-center border-t-[1px] border-gray-700">
+      <h2 className="text-center text-white font-bold text-5xl mt-12">Click to play Audio</h2>
+      <div className="grid grid-cols-3">
         {items.map((item, index) => (
           <div key={index} onClick={() => handlePlayAudio(item.audioSrc)}>
             <Image

@@ -21,6 +21,7 @@ export function HomeHeroSection() {
             </div>
           </div>
           <BackgroundBeams />
+          <h1 className="text-4xl">$AiPnut</h1>
         </div>
       </section>
       <div className="bg-[#141414] pb-10 md:px-20 px-4 flex flex-col justify-center items-center">
